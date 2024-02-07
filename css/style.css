@@ -1,0 +1,188 @@
+@charset "UTF-8";
+article, aside, footer, header, main, nav, section {
+    display: block;
+}
+html, body, h1, h2, h3, ul, li, a, p, article, aside, footer, header, main, nav, section {
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-size: 34px;
+}
+h2{
+    font-size: 28px;
+}
+h3{
+    font-size: 22px;
+}
+p{
+    font-size: 18px;
+}
+
+body{
+    width: 100%;
+    margin-top: -0.1%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../imagenes/fondocamp1.png);
+    background-repeat: repeat;
+    
+    background-position: top;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    margin-left: 15px;
+    margin-right:15px; 
+    font-size: 20px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+section{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #523267;
+}
+article{
+    background-color: #181733;
+    margin-top: 5px;
+    padding: 10px 15px;
+    
+}
+article h1{
+    color: #FDC52C;
+}
+article p{
+    color: aliceblue;
+    margin-left: 10%;
+    width: 80%;
+    line-height: 1.7;
+    font-size: 23px;
+}
+main{
+    width: 90%;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 5%;
+}
+
+footer{
+    clear:both;
+    background-color: #0F2A56;
+    color: black;
+    padding: 5px 20px;
+    width: 72%;
+}
+
+.nave{
+    background-color: #0A0927;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 1px;
+    height: 85px;
+}
+
+.nave .logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nave .logo img{
+    margin-top: 4%;
+    margin-left: 20%;
+    height: 90px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.nave .logo img:hover{
+    transform: scale(1.2);
+}
+
+.nave .lista {
+    list-style: none;
+    margin-right: 42%;
+}
+
+.nave .lista li{
+    display: inline-block;
+    
+}
+
+.nave .lista a{
+    font-size: 22px;
+    color:whitesmoke;
+    text-decoration: none;
+  
+}
+
+.nave .lista li:hover{
+    transform: scale(1.2);
+}
+
+.nave .lista li a:hover{
+    color: #FDC52C;
+}
+
+.nave .registro {
+    font-size: 20px;
+    color:whitesmoke;
+    padding-right: 1%;
+    text-decoration: none;
+    
+}
+
+.nave .registro:hover{
+    transform: scale(1.2);
+    color: #FDC52C;
+}
+
+.nave .boton button{
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 9px 25px;
+    background: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.nave .boton button:hover{
+    background-color: black;
+    color: #FDC52C;
+    transform: scale(1.1);
+}
+#boton2 button{
+    width: 40%;
+    margin-top: 4%;
+    border-radius: 3%;
+    background-color: black;
+}
+#boton2 button:hover{
+    background-color: black;
+    color: rgb(4, 236, 93);
+    transform: scale(1.1);
+}
+.listatabla ul{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    line-height: 1.4;
+    flex-wrap: wrap;
+    flex: 3;
+    align-items: baseline;
+    display: flex;
+}
+.listatabla li{
+    flex: 3;
+}
+
+.listatabla{
+    color: #FDC52C;
+}
+
+a{
+    text-decoration: none;
+    color: #FDC52C;
+}
